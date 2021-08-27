@@ -15,7 +15,7 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
 关于运行复现的SCDA：
 
 1. 下载[cub200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)数据集
-    下载vgg16预训练模型于 .\SCDA_for_LL\model文件夹下
+    下载[vgg16](https://download.pytorch.org/models/vgg16-397923af.pth)预训练模型于 .\SCDA_for_LL\model文件夹下
 
 2. 更改 .\SCDA_for_LL\files.py 这个程序的第15行代码为自己下载的CUB 数据集的绝对路径，并运行该程序
        .\SCDA_for_LL\datafile   文件夹下会生成四个json文件，它们与加载数据集有关。
