@@ -26,6 +26,7 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
 4. 
     - .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py
     - .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py
+    - 
       这两个程序用来衡量算法的效果，跑出来的结果一样，两版实现都是正确的
 
      - .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py 运行的速度相对要快很多 .但是我只实现了Recall@K 
