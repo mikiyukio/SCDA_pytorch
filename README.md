@@ -14,26 +14,26 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
 
 关于运行复现的SCDA：
 
-- 下载cub200-2011数据集
-     下载vgg16预训练模型于 .\SCDA_for_LL\model文件夹下
+1. 下载cub200-2011数据集
+    下载vgg16预训练模型于 .\SCDA_for_LL\model文件夹下
 
-- 更改 .\SCDA_for_LL\files.py 这个程序的第15行代码为自己下载的CUB 数据集的绝对路径，并运行该程序
+2. 更改 .\SCDA_for_LL\files.py 这个程序的第15行代码为自己下载的CUB 数据集的绝对路径，并运行该程序
        .\SCDA_for_LL\datafile   文件夹下会生成四个json文件，它们与加载数据集有关。
 
-- 运行 .\SCDA_for_LL\WAOCD\original_SCDA.py  这是对于SCDA的尽可能精确的复现
+3. 运行 .\SCDA_for_LL\WAOCD\original_SCDA.py  这是对于SCDA的尽可能精确的复现
       提取好的特征也存储在.\SCDA_for_LL\datafile 文件夹下（刚刚看了下，这份代码可以实现的更为简洁，请自行修改）
 
-- .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py
-      .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py
+4. .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py
+    - .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py
       这两个程序用来衡量算法的效果，跑出来的结果一样，两版实现都是正确的
 
-      .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py 运行的速度相对要快很多 .但是我只实现了Recall@K 
+     - .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py 运行的速度相对要快很多 .但是我只实现了Recall@K 
        但是Recall@K是度量学习的评价指标，SCDA使用mAP@K作为评价指标（Recall@1等价于mAP@1）
 
-      .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py 运行较慢，但是Recall@K 与mAP@K都实现了
+     - .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py 运行较慢，但是Recall@K 与mAP@K都实现了
       并且计算的结果自动写入CSV文件，是很便利的；CSV文件在.\SCDA_for_LL\result  文件夹下
 
--  如果读者想要进行真实的图像检索的话，也是可以的，以下的程序中是一个简易的版本
+5. 如果读者想要进行真实的图像检索的话，也是可以的，以下的程序中是一个简易的版本
        .\SCDA_for_LL\WAOCD\img_retrival_original_scda.py  
       从测试集中选定一个query,然后修改程序第77行的query的路径
       第330行左右也是可以修改的，不多说，读者请看源码
