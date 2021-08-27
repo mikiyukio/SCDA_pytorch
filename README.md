@@ -23,7 +23,8 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
 3. 运行 .\SCDA_for_LL\WAOCD\original_SCDA.py  这是对于SCDA的尽可能精确的复现
       提取好的特征也存储在.\SCDA_for_LL\datafile 文件夹下（刚刚看了下，这份代码可以实现的更为简洁，请自行修改）
 
-4. .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py
+4. 
+    - .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py
     - .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py
       这两个程序用来衡量算法的效果，跑出来的结果一样，两版实现都是正确的
 
