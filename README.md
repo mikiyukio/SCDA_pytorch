@@ -30,7 +30,10 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
       这两个程序用来衡量算法的效果，跑出来的结果一样，两版实现都是正确的
 
      - .\SCDA_for_LL\WAOCD\compute_recall_as_ms.py 运行的速度相对要快很多 .但是我只实现了Recall@K 
-       但是Recall@K是度量学习的评价指标，SCDA使用mAP@K作为评价指标（Recall@1等价于mAP@1）
+       但是Recall@K是度量学习领域的评价指标，SCDA使用mAP@K作为评价指标（Recall@1等价于mAP@1）
+       
+       
+      - 注：在不同的领域/语境中， 对于recall的定义是有所差异的；具体到度量学习领域，其定义参见 https://arxiv.org/abs/1511.06452
 
      - .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py 运行较慢，但是Recall@K 与mAP@K都实现了
       并且计算的结果自动写入CSV文件，是很便利的；CSV文件在.\SCDA_for_LL\result  文件夹下
