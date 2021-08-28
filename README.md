@@ -2,6 +2,22 @@
 This is a pytorch implement of SCDA ([selective deep descriptors selection for fine-grained image retrieval](https://arxiv.org/abs/1604.04994)), which is fully translated from its original matlab version
 
 
+## requirements
+> python                3.6.5  
+> numpy 1.16.3  
+> pandas 0.24.2  
+> torch 1.2.0 + cuda 9.2  
+> torchvision 0.4.0 + cuda 9.2  
+> scikit-image 0.17.2  
+> scikit-learn 0.23.1  
+> scipy 1.3.1  
+> Pillow 6.1.0  
+> matplotlib 3.0.3  
+> opencv-contrib-python 4.1.0.25  
+> opencv-python         4.1.0.25  
+> NVIDIA Geforce GTX 1060
+
+
 
 关于pytorch版本的SCDA的说明文档
 
