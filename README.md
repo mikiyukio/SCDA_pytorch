@@ -55,7 +55,7 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
      - .\SCDA_for_LL\WAOCD\compute_map_test_batch_circle.py 运行较慢，但是Recall@K 与mAP@K都实现了
       并且计算的结果自动写入CSV文件，是很便利的；CSV文件在.\SCDA_for_LL\result  文件夹下
       
-     - 复现结果如下（因为原始论文的matlab源码使用的是matcovnet工具箱，我复现时用的是pytorch框架。虽然都是用的框架本身提供的vgg16在imagenet_1k上的预训练模型，但是肯定不是一样的参数嘛，所以，与原论文实验结果还是稍有差别的）
+     - 复现结果如下（因为原始论文的matlab源码使用的是matcovnet工具箱，我复现时用的是pytorch框架。虽然都是用的框架本身提供的vgg16在imagenet_1k上的预训练模型，但是肯定不是一样的参数嘛，所以，与原论文实验结果还是稍有差别的）因为是无监督的实验嘛，并且backbone还是较为古老的vgg16,所以效果一般也可以理解
         |Recall @1|||||
         |---|----|---|---|---|
         |SCDA_avg|SCDA_max|SCDA_max_avg|SCDA+|SCDA_flip+|
