@@ -68,6 +68,7 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
       第330行左右也是可以修改的，不多说，读者请看源码
        然后这份代码不光是图像检索相关，也对SCDA论文中的可视化的热力图进行了实现，具体请参照源码
        可视化的结果将会存储在.\SCDA_for_LL\retrivial_visualize文件夹下
+       
        下图为一个检索示例，左侧为query，右侧为gallary中的top-9的query results
        ![miki](SCDA_pytorch/Inkedmiki_LI1.jpg)
 ---
