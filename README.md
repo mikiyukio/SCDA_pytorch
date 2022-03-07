@@ -70,6 +70,7 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
        可视化的结果将会存储在.\SCDA_for_LL\retrivial_visualize文件夹下
        
        下图为一个检索示例，左侧为query，右侧为gallary中的top-9的query results
+       
        ![miki](SCDA_pytorch/Inkedmiki_LI1.jpg)
 ---
 以上便是全部的介绍
