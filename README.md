@@ -57,8 +57,8 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
       
      - 复现结果如下（因为原始论文的matlab源码使用的是matcovnet工具箱，我复现时用的是pytorch框架。虽然都是用的框架本身提供的vgg16在imagenet_1k上的预训练模型，但是肯定不是一样的参数嘛，所以，与原论文实验结果还是稍有差别的）
         |recall @1|||||
-        |SCDA_avg|SCDA_max|SCDA_max_avg|SCDA+|SCDA_flip+|
         |---|----|---|---|---|
+        |SCDA_avg|SCDA_max|SCDA_max_avg|SCDA+|SCDA_flip+|
         |52.7|53.6|55.9|56.2|58.8|
 
 
