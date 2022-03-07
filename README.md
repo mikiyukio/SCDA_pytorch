@@ -18,7 +18,7 @@ This is an unofficial pytorch implement of SCDA ([selective deep descriptors sel
 > opencv-python         4.1.0.25  
 > NVIDIA Geforce GTX 1060
 
-
+***
 
 关于pytorch版本的SCDA的说明文档
 
