@@ -1,6 +1,7 @@
 # SCDA_pytorch
 This is a pytorch implement of SCDA ([selective deep descriptors selection for fine-grained image retrieval](https://arxiv.org/abs/1604.04994)), which is fully translated from its original matlab version
 
+![miki](SCDA_pytorch/SCDA.jpg)
 
 ## requirements
 > python                3.6.5  
