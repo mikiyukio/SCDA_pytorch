@@ -56,7 +56,7 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
       并且计算的结果自动写入CSV文件，是很便利的；CSV文件在.\SCDA_for_LL\result  文件夹下
       
      - 复现结果如下（因为原始论文的matlab源码使用的是matcovnet工具箱，我复现时用的是pytorch框架。
-     - 虽然都是用的框架本身提供的vgg16在imagenet-1k上的预训练模型，但是肯定不是一样的参数嘛，所以，与原论文实验结果还是稍有差别的）
+     - 虽然都是用的框架本身提供的vgg16在imagenet_1k上的预训练模型，但是肯定不是一样的参数嘛，所以，与原论文实验结果还是稍有差别的）
 
 5. 如果读者想要进行真实的图像检索的话，也是可以的，以下的程序中是一个简易的版本
        .\SCDA_for_LL\WAOCD\img_retrival_original_scda.py  
