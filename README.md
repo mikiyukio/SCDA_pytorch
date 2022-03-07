@@ -20,7 +20,7 @@ This is an unofficial pytorch implement of SCDA ([selective deep descriptors sel
 
 ***
 
-关于pytorch版本的SCDA的说明文档
+**关于pytorch版本的SCDA的说明文档**
 
 首先需要明确的一点是，这是无监督的细粒度图像检索，在数据集的划分上与度量学习的习惯性划分是截然不同的，具体请参照SCDA 原论文
 这份代码是对基于matlab版本的SCDA开源代码的翻译版，已经尽可能的以matlab版本的代码的设置为准了，当然可能有所疏漏，所以两份代码都要看，
