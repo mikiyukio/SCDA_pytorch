@@ -61,7 +61,7 @@ http://www.lamda.nju.edu.cn/code_SCDA.ashx
         |SCDA_avg|SCDA_max|SCDA_max_avg|SCDA+|SCDA_flip+|
         |52.7|53.6|55.9|56.2|58.8|
 
-5. 借助.\SCDA_for_LL\WAOCD\t_sne.py    读者也可以借助t-SNE对特征空间中的数据分布做一个宏观的可视化
+5. 借助.\SCDA_for_LL\WAOCD\t_sne.py    读者也可以借助[t-SNE](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)对特征空间中的数据分布做一个宏观的可视化
 
 6. 如果读者想要进行真实的图像检索的话，也是可以的，以下的程序中是一个简易的版本
        .\SCDA_for_LL\WAOCD\img_retrival_original_scda.py  
